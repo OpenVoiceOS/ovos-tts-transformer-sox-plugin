@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-tts-transformer-sox-plugin"
+dynamic = ["version"]
+description = "manipulate TTS with sox"
+license = "Apache-2.0"
+authors = [
+    {name = "JarbasAI", email = "jarbasai@mailfence.com"}
+]
+
+[project.urls]
+Homepage = "https://github.com/OpenVoiceOS/ovos-tts-transformer-sox-plugin"
+
+[project.entry-points."opm.transformer.tts"]
+"ovos-tts-transformer-sox-plugin" = "ovos_tts_transformer_sox:SoxTTSTransformer"
+
+[tool.setuptools.dynamic]
+version = {attr = "ovos_tts_transformer_sox.version.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ovos_tts_transformer_sox*"]
