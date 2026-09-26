@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.0a4](https://github.com/OpenVoiceOS/ovos-tts-transformer-sox-plugin/tree/0.0.0a4) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-transformer-sox-plugin/compare/0.0.0a3...0.0.0a4)
+
+**Merged pull requests:**
+
+- Configure Renovate [\#2](https://github.com/OpenVoiceOS/ovos-tts-transformer-sox-plugin/pull/2) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.0.0a3](https://github.com/OpenVoiceOS/ovos-tts-transformer-sox-plugin/tree/0.0.0a3) (2026-08-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-transformer-sox-plugin/compare/0.0.0a2...0.0.0a3)
